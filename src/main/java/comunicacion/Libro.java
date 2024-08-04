@@ -22,7 +22,7 @@ public class Libro extends Escrito {
 	}
 	
 	public String interpretacion() {
-		return "";
+		return interpretacion;
 	}
 	
 	public String toString() {

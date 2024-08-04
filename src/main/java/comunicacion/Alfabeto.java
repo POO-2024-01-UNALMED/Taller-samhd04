@@ -20,14 +20,14 @@ public class Alfabeto extends Pictograma {
 	}
 	
 	public String toString() {
-		String alfabeto = "abcdefghijklmnopqrstuvwxyz";
+		String alfabeto = "abcdefghijklmnopqrstuvwxyz".toUpperCase();
 		String newAlfabeto = "";
 		
 		for(int i = 0; i < alfabeto.length(); i++) {
 			String subString = alfabeto.charAt(i) + ", ";
 			
 			if(i == 25) {
-				subString = String.valueOf(alfabeto.charAt(i));
+				subString = "Z";
 			}
 			
 			newAlfabeto += subString;
